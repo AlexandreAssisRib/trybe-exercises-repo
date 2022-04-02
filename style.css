@@ -1,35 +1,35 @@
-div:hover {
-    border: 2px solid black;
+ol li {
+    background-color: yellow;
 }
 
-.amarelo:hover {
-    color: yellow;
-    font-style: italic;
-    text-align: center;
+h1, h2, h3 {
+    color: red;
+}
+
+ol li em {
+    font-size: 40px;
+    border: 1px solid black;
     
 }
 
-.verde:hover {
-    color:green
+li {
+    font-size: 20px;
 }
 
-.vermelho:hover  {
-    color: red;
-    font-size: xx-large;
-    font-style: italic;
+em {
+    font-weight: 900;
 }
 
-.roxo:hover {
-    color: rgb(100, 37, 100);
+li.selec  {
+    color:blue;
 }
 
-.verde-agua:hover {
-    color: aqua;
-    font-style: italic;
+li.Java {
+    background-color: pink;
 }
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: bold;
-    position: relative;
-    left: 20px;
+
+.efeito:hover {
+    font-weight: 800;
+    background-color: pink;
+
 }
