@@ -1,14 +1,35 @@
-h1, p {
+div:hover {
+    border: 2px solid black;
+}
+
+.amarelo:hover {
+    color: yellow;
+    font-style: italic;
     text-align: center;
     
 }
 
-li:hover{
-    background-color: brown;
+.verde:hover {
+    color:green
 }
-li:active {
-    font-family:'serif';
+
+.vermelho:hover  {
+    color: red;
+    font-size: xx-large;
+    font-style: italic;
 }
-li {
-    list-style: none;
+
+.roxo:hover {
+    color: rgb(100, 37, 100);
+}
+
+.verde-agua:hover {
+    color: aqua;
+    font-style: italic;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    position: relative;
+    left: 20px;
 }
