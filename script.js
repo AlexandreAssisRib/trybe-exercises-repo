@@ -1,14 +1,6 @@
-function greatestOfThree( elementA,elementB,elementC) {
-  if ( elementA>elementB && elementA>elementC) {
-      return elementA
-  }
-  else if (elementB>elementA && elementB>elementC) {
-      return elementB
-  } else {
-      return elementC
-  }
-    
+function positiveOrNegative(params) {
+    let result = params > 0 ? 'positive': 'negative'
+    return result
     
 }
-
-console.log(greatestOfThree(75,48,60))
+console.log(positiveOrNegative(10))
