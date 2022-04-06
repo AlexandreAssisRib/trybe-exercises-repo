@@ -1,6 +1,5 @@
-function positiveOrNegative(params) {
-    let result = params > 0 ? 'positive': 'negative'
+console.log(triangle(50,180,150))
+function triangle(angleA,angleB,angleC) {
+    let result = angleA + angleB + angleC === 360 ? true : false;
     return result
-    
 }
-console.log(positiveOrNegative(10))
