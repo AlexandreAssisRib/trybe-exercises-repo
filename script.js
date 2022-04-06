@@ -1,6 +1,6 @@
-function multiply (elementA, elementB) {
-    let results = elementA * elementB;
+function division (elementA, elementB) {
+    let results = elementA / elementB;
     return results
 }
 
-console.log(multiply(5,10))
+console.log(division(10,10))
