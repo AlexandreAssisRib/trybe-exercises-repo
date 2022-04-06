@@ -1,6 +1,6 @@
-function division (elementA, elementB) {
-    let results = elementA / elementB;
+function module (elementA, elementB) {
+    let results = elementA % elementB;
     return results
 }
 
-console.log(division(10,10))
+console.log(module(5,10))
