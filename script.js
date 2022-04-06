@@ -1,6 +1,6 @@
-function sum (elementA, elementB) {
-    let results = elementA + elementB;
+function subtraction (elementA, elementB) {
+    let results = elementA - elementB;
     return results
 }
 
-console.log(sum(5,10))
+console.log(subtraction(5,10))
