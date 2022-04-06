@@ -1,7 +1,14 @@
-function greatestOfTwo( elementA,elementB) {
-   let result = elementA > elementB ? elementA : elementB;
-        return result
+function greatestOfThree( elementA,elementB,elementC) {
+  if ( elementA>elementB && elementA>elementC) {
+      return elementA
+  }
+  else if (elementB>elementA && elementB>elementC) {
+      return elementB
+  } else {
+      return elementC
+  }
+    
     
 }
 
-console.log(greatestOfTwo(25,48))
+console.log(greatestOfThree(75,48,60))
