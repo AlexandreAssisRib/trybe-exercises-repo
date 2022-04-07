@@ -1,5 +1,5 @@
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+let names = ['João', 'Maria', 'Antônio', 'Margarida'];
 
-for (let i = 0; i < groceryList.length; i++) {
-    console.log(groceryList[i])
+for( let name of names) {
+    console.log(name)
 }
