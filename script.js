@@ -1,11 +1,8 @@
-let result = theNumIsOdd(12,13,18)
+let result = profit(100,200)
 console.log(result)
+function profit(cost, price) {
+    let costInbutTax = (20/100)* cost;
+    let profit = price - costInbutTax
+    return profit
 
-function theNumIsOdd(paramsA, paramsB,paramsC) {
-if ( paramsA%2 !== 0 || paramsB%2 !== 0 || paramsC%2 !== 0) {
-    return true;
-} else {
-    return false;
-}
-    
 }
