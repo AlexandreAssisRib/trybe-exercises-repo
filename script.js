@@ -1,4 +1,4 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [5, 9, 3, 19, 70, 8, 2, 35, 27];
 
 let result = AverageArray(numbers)
 console.log(result)
@@ -8,6 +8,8 @@ function AverageArray (arrayOfnums) {
        sum = sum + (arrayOfnums[i]);
     
     }
-    return sum/numbers.length
+    let average = sum/numbers.length;
+    let resul = average>20 ? 'valor maior que 20': 'valor menor que 20';
+    return resul + ' :' + average
     
 }
