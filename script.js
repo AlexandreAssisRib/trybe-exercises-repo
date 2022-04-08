@@ -1,6 +1,9 @@
-let array = [];
-for(let i =0; i<26;i++) {
-    array.push(i/2)
+factorial(10)
+function factorial (entrada) {
+    let mult = 1;
+    for(let i = entrada;i>0;i--) {
+        mult = mult * i ;
+        
+    }
+   console.log(mult)
 }
-console.log(array)
-
