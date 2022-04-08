@@ -1,19 +1,9 @@
-let numbers = [2, 6, 3, 19, 70,80];
-let result = Odd(numbers)
-console.log(result)
 
-function Odd(array) {
-    let numsOdds =0 ;
-    for(let i = 0; i< numbers.length; i++) {
-        if ( array[i]%2 !== 0) {
-       numsOdds++ ;
-       
-       
-         } else {
-            i++;
-        }
-      
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let bigger = numbers[0];
+for (let i=1;i<numbers.length;i++) {
+    if (numbers[i] > bigger) {
+        bigger = numbers[i]
+    }
 }
-return numsOdds
-
-}   
+console.log(bigger)
