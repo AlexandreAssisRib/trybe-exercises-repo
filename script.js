@@ -1,4 +1,4 @@
-let numbers = [2, 6, 3, 19, 70];
+let numbers = [2, 6, 3, 19, 70,80];
 let result = Odd(numbers)
 console.log(result)
 
