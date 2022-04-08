@@ -1,4 +1,19 @@
-let numbers = [5, 9, 3, 19, 70, 8, 2, 35, 27];
+let numbers = [2, 6, 3, 19, 70];
+let result = Odd(numbers)
+console.log(result)
 
-let maxInArray = numbers.reduce((el,total) => {return Math.max(el,total) })
-console.log(maxInArray)
+function Odd(array) {
+    let numsOdds =0 ;
+    for(let i = 0; i< numbers.length; i++) {
+        if ( array[i]%2 !== 0) {
+       numsOdds++ ;
+       
+       
+         } else {
+            i++;
+        }
+      
+}
+return numsOdds
+
+}   
