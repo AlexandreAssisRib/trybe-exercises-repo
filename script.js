@@ -9,7 +9,7 @@ function theGreatestWord(array) {
    }
 let num = word[0];
 for ( let x =1; x < word.length; x++) {
-    if(word[x]>num) {
+    if(word[x]<num) {
         num = word[x]
     }
 
