@@ -23,21 +23,14 @@ function DaysOfMonth(array) {
     
     for (let index = 0; index < array.length; index++) {
       const element = array[index];
-
-      
-      
       let listOfDays = document.createElement('li');
-
-     
-
       listOfDays.innerText = element;
-      
+    
       if(array[index] === 24 || array[index] === 25 || array[index === 31]) {
         listOfDays.className = 'days holiday'
       }
       if ( array[index] === 4 || array[index] === 11 || array[index] === 18 || array[index] === 25) { 
         listOfDays.className = 'days friday'
-
       } 
       else {
         listOfDays.className = 'days'
@@ -45,13 +38,25 @@ function DaysOfMonth(array) {
       }
       days.appendChild(listOfDays)
 
-      console.log(listOfDays)
-      
-    }
-    
-    
+       
+    }  
 }
+CreateButton()
+function CreateButton() {
 
+  let butao = document.querySelector('div');
+  butao.className = 'buttons-container'
+
+  let button = document.createElement('button');
+  button.innerText = 'Feriados'
+  button.className = 'buttons-container';
+  button.style.width = '100px'
+
+butao.appendChild(button)
+
+
+  
+}
 
 
   
