@@ -110,5 +110,13 @@ days()
     }
     
   }
-  
+  let text = 'blablalbalblalblablalbalblalblbalblablalbablabalalblablablablablabalblabla'
+  makeSomething(text)
+  function makeSomething(entrada){
+    let local = document.querySelector('.my-tasks')
+    let p = document.createElement('span');
+    p.innerText = entrada;
+    local.appendChild(p)
+
+  }
   
