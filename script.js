@@ -69,6 +69,27 @@ function itsFriday () {
   botao.appendChild(button);
   button.style.width ='100px'
 
+
 }
 
+FridayDay()
+function FridayDay() {
+let bottonFriday = document.getElementById('btn-friday');
+let clicks = 0
+bottonFriday.addEventListener('click', function lala (){
+clicks = clicks + 1;
+let sextas = document.getElementsByClassName('friday');
+for(let i = 0 ; i < sextas.length; i++) {
+  if(clicks % 2 === 0) {
+    let nums = [4,11,18,25]
+    for(let index = 0 ; index<nums.length; index++) {
+      sextas[i].innerText = nums[i]
+    }
+  } else {
+    sextas[i].innerText = 'sextou!'
+  }
+}
 
+})
+
+}
