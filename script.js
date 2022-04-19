@@ -119,4 +119,12 @@ days()
     local.appendChild(p)
 
   }
+quadrado('purple')
+  function quadrado(color) {
+    let local = document.querySelector('.my-tasks');
+    let div = document.createElement('div');
+    div.style.backgroundColor = color;
+    local.appendChild(div)
+
+  }
   
