@@ -51,14 +51,13 @@ function CreateButton() {
   button.innerText = 'Feriados'
   button.className = 'buttons-container';
   button.style.width = '100px'
-
+button.addEventListener('mouseover', function () {
+  button.style.backgroundColor = "rgb( 238, 238, 238)"
+})
 butao.appendChild(button)
-
-
   
+
+
 }
-
-
-  
 
 
