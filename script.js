@@ -49,7 +49,7 @@ function CreateButton() {
 
   let button = document.createElement('button');
   button.innerText = 'Feriados'
-  button.className = 'buttons-container';
+  button.setAttribute('id', 'btn-holiday');
   button.style.width = '100px'
 button.addEventListener('mouseover', function () {
   button.style.backgroundColor = "rgb( 238, 238, 238)"
@@ -57,6 +57,17 @@ button.addEventListener('mouseover', function () {
 butao.appendChild(button)
   
 
+
+}
+itsFriday()
+function itsFriday () {
+  botao = document.querySelector('div');
+  button = document.createElement('button'); 
+  button.className = 'buttons-container';
+  button.setAttribute('id','btn-friday')
+  button.innerText = 'Sexta-feira';
+  botao.appendChild(button);
+  button.style.width ='100px'
 
 }
 
