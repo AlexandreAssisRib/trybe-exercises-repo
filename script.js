@@ -93,3 +93,22 @@ for(let i = 0 ; i < sextas.length; i++) {
 })
 
 }
+days()
+  function days () {
+    let dias = document.getElementsByClassName('days');
+    let clicks = 0
+    for (let index = 0; index < dias.length; index++) {
+      dias[index].addEventListener('mouseover', function day(element) {
+        clicks = clicks + 1
+        if(clicks%2 ===0) {
+          dias[index].style.fontSize= '50px' 
+        }else {
+          dias[index].style.fontSize = '20px'
+        }
+      })
+      
+    }
+    
+  }
+  
+  
