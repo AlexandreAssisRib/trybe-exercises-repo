@@ -1,0 +1,10 @@
+
+
+form  {
+    background: linear-gradient(
+    45deg,
+    rgb(54, 114, 138) 0%,
+    rgb(127, 136, 138) 100%
+    );
+    box-shadow: 10px 10px 5px lightblue;
+}   
